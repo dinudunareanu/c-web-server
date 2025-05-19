@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About This Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>About This Server</h1>
+    <p>This is a basic HTTP server written in C. It supports the following features:</p>
+    <ul>
+		<li>✔️ Built using low-level <strong>POSIX sockets</strong> (<code>socket()</code>, <code>bind()</code>, <code>listen()</code>, <code>accept()</code>, etc.)</li>
+        <li>✔️ Handles <strong>GET</strong> requests</li>
+        <li>✔️ Serves static HTML files</li>
+        <li>✔️ Serves a default <code>index.html</code> page for root requests</li>
+        <li>✔️ Custom <strong>404 Not Found</strong> error page</li>
+        <li>✔️ Supports <strong>multiple clients</strong> at the same time using <code>pthread</code></li>
+        <li>✔️ Logs requests to <code>server.log</code></li>
+    </ul>
+    <p><a href="/index.html">&larr; Back to Home</a></p>
+</body>
+</html>
+

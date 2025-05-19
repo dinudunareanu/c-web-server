@@ -1,0 +1,13 @@
+server.log
+
+*.o
+*.out
+*.exe
+server
+
+*~
+*.swp
+.DS_Store
+
+core
+
